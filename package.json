@@ -1,0 +1,49 @@
+{
+  "name": "safetyinfinity",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Safety Infinity \u2014 HSE standards (incl. Australia, Canada and the GCC), 98 document templates with attachments, training and employee-of-the-month certificates, notice-board posters, company HSE workspace with dashboards, KPIs, reports and incident alerts, toolkit, PPE guide with pictures, exam practice, read-aloud in four languages and an Arabic interface. \u00a9 2026 Daniyal Khalid. All rights reserved.",
+  "author": "Daniyal Khalid",
+  "license": "UNLICENSED",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/prepare-www.mjs",
+    "setup:android": "node scripts/setup-native.mjs android",
+    "setup:ios": "node scripts/setup-native.mjs ios",
+    "open:android": "npx cap open android",
+    "open:ios": "npx cap open ios",
+    "preview": "npx http-server www -p 8080 -c-1"
+  },
+  "dependencies": {
+    "@capacitor-community/text-to-speech": "^8.0.2",
+    "@capacitor-firebase/authentication": "^8.5.0",
+    "@capacitor-firebase/firestore": "^8.5.0",
+    "@capacitor-firebase/functions": "^8.5.0",
+    "@capacitor-firebase/messaging": "^8.5.2",
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/app": "^8.1.0",
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/filesystem": "^8.1.0",
+    "@capacitor/ios": "^8.0.0",
+    "@capacitor/preferences": "^8.0.0",
+    "@capacitor/share": "^8.0.0",
+    "@capacitor/status-bar": "^8.0.0",
+    "@capgo/capacitor-printer": "^8.1.8",
+    "@fontsource/barlow": "^5.0.0",
+    "@fontsource/barlow-condensed": "^5.0.0",
+    "@fontsource/ibm-plex-mono": "^5.0.0",
+    "@fontsource/ibm-plex-sans-arabic": "^5.0.0",
+    "@fontsource/noto-nastaliq-urdu": "^5.0.0",
+    "@fontsource/noto-sans-devanagari": "^5.0.0",
+    "@revenuecat/purchases-capacitor": "^13.7.0",
+    "libphonenumber-js": "^1.12.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^8.4.0",
+    "esbuild": "^0.25.0"
+  }
+}

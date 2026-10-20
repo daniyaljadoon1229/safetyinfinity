@@ -1,0 +1,21 @@
+Safety Infinity
+Copyright © 2026 Daniyal Khalid. All rights reserved.
+
+The Safety Infinity name, the shield-and-infinity logo, the app icon, app design,
+source code written for this app, the selection, arrangement and structure of the
+library, all summaries, the hazard register, the site guides, the toolkit (risk
+assessment, permit, checklist, investigation, ISO clause and role guides), the PPE
+guide, PPE illustrations and selection tables, the HSE document templates, the
+company workspace (registers, dashboards, KPI library and report formats), the
+certificate and notice-board poster designs, the certification pathways, the
+original practice papers and questions, the animated site scenarios, the narrated
+app tour, the 3D icons, the alert and tap sounds, the interface translations,
+screenshots and other original material are the work of Daniyal Khalid.
+No part may be copied, modified, republished, sold or distributed without the
+prior written permission of Daniyal Khalid.
+
+Names, numbers and trademarks of standards and organisations referred to in the app
+(for example OSHA, NFPA, ISO, IEC, HSE, API, ASME, IOGP, ICAO, Safe Work Australia,
+CSA, BICSc, IRATA, Saudi Aramco and SABIC) belong to their owners. Safety Infinity is
+independent and is not affiliated with or endorsed by them. Third-party software and
+fonts are listed in THIRD-PARTY-NOTICES.md and remain under their own licences.

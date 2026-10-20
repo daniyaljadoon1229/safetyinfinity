@@ -1,0 +1,54 @@
+{
+  "appId": "com.daniyalkhalid.mastersafety",
+  "appName": "Safety Infinity",
+  "webDir": "www",
+  "backgroundColor": "#0B1A2E",
+  "ios": {
+    "contentInset": "never",
+    "backgroundColor": "#0B1A2E"
+  },
+  "android": {
+    "backgroundColor": "#0B1A2E"
+  },
+  "plugins": {
+    "FirebaseAuthentication": {
+      "skipNativeAuth": false,
+      "providers": [
+        "phone"
+      ]
+    },
+    "FirebaseMessaging": {
+      "presentationOptions": [
+        "alert",
+        "badge",
+        "sound"
+      ]
+    }
+  },
+  "experimental": {
+    "ios": {
+      "spm": {
+        "swiftToolsVersion": "6.1",
+        "packageOptions": {
+          "@capacitor-firebase/authentication": {
+            "symlink": true
+          },
+          "@capacitor-firebase/firestore": {
+            "symlink": true
+          },
+          "@capacitor-firebase/functions": {
+            "symlink": true
+          },
+          "@capacitor-firebase/messaging": {
+            "symlink": true
+          }
+        },
+        "packageTraits": {
+          "@capacitor-firebase/authentication": [
+            "Lite"
+          ]
+        }
+      }
+    }
+  }
+}
