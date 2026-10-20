@@ -1,0 +1,21 @@
+:root{--paper:#EDF0F4;--card:#fff;--ink:#0E1A2B;--ink2:#4B5A6D;--line:#D6DDE5;--head:#0E1A2B;--brand:#F5B301;--link:#0A58B5}
+@media (prefers-color-scheme:dark){:root{--paper:#0A111B;--card:#121D2B;--ink:#E6ECF3;--ink2:#A3B1C2;--line:#243346;--head:#0D1724;--link:#7DB7FF;color-scheme:dark}}
+*{box-sizing:border-box}html,body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 "Barlow","Segoe UI",Roboto,system-ui,sans-serif}
+a{color:var(--link)}header{background:var(--head);color:#F3F6FA}
+.in{max-width:760px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left));padding-right:max(20px,env(safe-area-inset-right))}
+.bar{display:flex;align-items:center;gap:10px;min-height:64px}
+.mark{width:34px;height:34px;display:grid;place-items:center}.mark svg{width:34px;height:34px;filter:drop-shadow(0 2px 3px rgba(0,0,0,.35))}
+.word{font:700 25px/1 "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing:.02em}.word b{color:var(--brand)}
+.hero{padding-block:26px 34px}.hero h1{font:700 44px/1.05 "Barlow Condensed","Arial Narrow",sans-serif;margin:0 0 12px;text-wrap:balance}.hero h1 em{font-style:normal;color:var(--brand)}
+.hero p{color:#A9B7C8;max-width:58ch;margin:0}
+.tape{height:8px;background:repeating-linear-gradient(-45deg,var(--brand) 0 12px,#111 12px 24px)}
+main{padding-block:28px 48px;display:flex;flex-direction:column;gap:22px}
+h2{font:700 26px/1.15 "Barlow Condensed","Arial Narrow",sans-serif;margin:0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px}
+.card p,.card li{color:var(--ink2)}ul{padding-left:20px}
+.meta{font-size:14px;color:var(--ink2)}footer{padding-block:26px;border-top:1px solid var(--line);font-size:14px;color:var(--ink2)}
+code{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:.92em}
+.price{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:10px}
+.price div{border:1.5px solid var(--line);border-radius:12px;padding:14px 16px}.price div.best{border-color:var(--brand)}
+.price b{display:block;font:700 30px/1.1 "Barlow Condensed","Arial Narrow",sans-serif;color:var(--ink)}
+.card h3{font:700 19px/1.2 "Barlow Condensed","Arial Narrow",sans-serif;margin:16px 0 4px;color:var(--ink)}

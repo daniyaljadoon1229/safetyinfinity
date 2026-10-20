@@ -1,0 +1,76 @@
+{
+  "app": "Safety Infinity",
+  "note": "Add new items at the top. Fields: d (date YYYY-MM-DD), t (title), b (details), ref (library id, optional), src (source).",
+  "updates": [
+    {
+      "d": "2026-09-14",
+      "t": "ANSI/ISEA Z89.1-2026 head protection standard released",
+      "b": "The new edition keeps helmet Types I and II and Classes G, E and C, and adds optional Type I+ and II+ ratings for chin-strap retention (Type I+ also multi-directional impact). The HV marking becomes EV. Current compliant helmets are not made obsolete.",
+      "ref": "isea-ppe",
+      "src": "ISEA"
+    },
+    {
+      "d": "2026-01-08",
+      "t": "ANSI/ISEA Z87.1-2025 eye and face protection published",
+      "b": "The revision clarifies product markings, updates impact, lens and coverage requirements, and aligns with ANSI/ISEA Z97.62 for blood and body fluids.",
+      "ref": "isea-ppe",
+      "src": "ISEA"
+    },
+    {
+      "d": "2026-09-20",
+      "t": "SAIS launches national industrial security platform",
+      "b": "The Supreme Authority for Industrial Security (formerly HCIS) launched an industrial security platform and operations centre. SAF safety and fire directives continue to apply to supervised facilities.",
+      "ref": "ksa-sais",
+      "src": "GCC Business News"
+    },
+    {
+      "d": "2026-06-15",
+      "t": "Saudi midday outdoor work ban in force",
+      "b": "Outdoor work under direct sun banned 12:00–15:00 from 15 June to 15 September 2026. MHRSD reported 94% compliance in 2025.",
+      "ref": "ksa-midday",
+      "src": "MHRSD"
+    },
+    {
+      "d": "2026-04-15",
+      "t": "ISO 14001:2026 published",
+      "b": "The new edition of the environmental management system standard replaces ISO 14001:2015. A transition period of about 3 years is expected for certified organizations.",
+      "ref": "iso-14001",
+      "src": "ISO / DEKRA"
+    },
+    {
+      "d": "2026-04-10",
+      "t": "OSHA renews its Heat National Emphasis Program",
+      "b": "CPL 03-00-024 replaces the 2022 heat NEP. The proposed federal heat rule is still not final; a supplemental proposal is planned for December 2026.",
+      "ref": "osha-heat",
+      "src": "OSHA"
+    },
+    {
+      "d": "2025-06-30",
+      "t": "Saudi Building Code 2024 becomes mandatory",
+      "b": "After a 180-day transition from January 2025, the 2024 SBC edition, including SBC 801 Saudi Fire Code, applies to all new and existing projects.",
+      "ref": "ksa-sbc801",
+      "src": "SBC National Committee"
+    },
+    {
+      "d": "2025-02-19",
+      "t": "Saudi Labor Law amendments take effect",
+      "b": "Royal Decree M/44 amendments are in force. The core OSH articles 121–124 and 127–130 were not changed.",
+      "ref": "ksa-labor",
+      "src": "MHRSD"
+    },
+    {
+      "d": "2024-05-20",
+      "t": "OSHA HazCom updated to GHS Rev. 7",
+      "b": "The revised Hazard Communication Standard changes labels and SDS rules, with compliance dates phased from 2026.",
+      "ref": "osha-1910-1200",
+      "src": "OSHA"
+    },
+    {
+      "d": "2024-01-27",
+      "t": "NFPA 1660 replaces NFPA 1600, 1616 and 1620",
+      "b": "Emergency management, business continuity, mass evacuation and pre-incident planning are now in one standard.",
+      "ref": "nfpa-1660",
+      "src": "NFPA"
+    }
+  ]
+}
